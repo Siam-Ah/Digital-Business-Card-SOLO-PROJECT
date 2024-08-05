@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #23252c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+html {
+    font-family: "Inter";
+}
+
+p {
+    font-size: 0.75em;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.profilePicture {
+    display: block;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.info {
+    text-align: center;
+}
+
+.info--fname {
+    margin-top: 1em;
+}
+
+.info--role {
+    font-weight: 400;
+    color: #f3bf99;
+}
+
+.info--website {
+    padding: 1em;
+}
+
+.info--websitelink {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2em;
+}
+
+button {
+    min-width: 115px;
+    padding: 0.5em 0.75em;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    filter: brightness(85%);
+}
+
+.email {
+    border: 1px solid #f5f5f5
+}
+
+.linkedin {
+    color: #f5f5f5;
+    background-color: #5093e2;
+    border: 1px solid #5093e2;
+}
+
+.info--icon {
+    margin-right: 10px;
+}
+
+.about {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.about--title {
+    margin-bottom: 0.25em;
+}
+
+.interest {
+    margin-bottom: 1em;
+}
+
+.interest--title {
+    margin-bottom: 0.25em;
+}
+
+#root {
+    max-width: 22em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+    border-radius: 100px;
+    margin: 3em;
+}
+
+.card {
+    border-radius: 10px;
+    color: #dcdcdc;
+    background-color: #1a1b21;
+}
+
+.container {
+    padding: 0 2em 2em 2em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1em 2em;
+    background-color: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.icon {
+    height: 25px;
+}
+
+.icon:hover {
+    filter: brightness(120%);
+}
